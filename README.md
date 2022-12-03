@@ -4,4 +4,4 @@
 
 ![VTrelat's GitHub stats](https://github-readme-stats.vercel.app/api?username=VTrelat&show_icons=true&theme=tokyonight)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VTrelat&?layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VTrelat&layout=compact&theme=tokyonight)
