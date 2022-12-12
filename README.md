@@ -10,16 +10,16 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 02 December 2022 - To: 09 December 2022
+From: 02 December 2022 - To: 10 December 2022
 
-Total Time: 9 hrs 50 mins
+Total Time: 10 hrs 57 mins
 
-TeX          6 hrs 28 mins   ████████████████▒░░░░░░░░   65.75 %
-Python       1 hr 17 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.09 %
-Isabelle     1 hr 16 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   12.90 %
-Bash         29 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.04 %
-JSON         8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.38 %
-Other        4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.82 %
+TeX          6 hrs 28 mins   ██████████████▓░░░░░░░░░░   59.16 %
+Python       1 hr 55 mins    ████▒░░░░░░░░░░░░░░░░░░░░   17.60 %
+Isabelle     1 hr 16 mins    ███░░░░░░░░░░░░░░░░░░░░░░   11.59 %
+Bash         29 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.53 %
+Text         17 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.63 %
+sh           13 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.01 %
 ```
 
 <!--END_SECTION:waka-->
