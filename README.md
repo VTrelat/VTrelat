@@ -6,7 +6,7 @@
 | <img align="center" src="https://github-readme-stats.vercel.app/api?username=VTrelat&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true" /> | <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VTrelat&layout=compact&theme=tokyonight&hide_border=true&exclude_repo=ElevatorSimulator" /> |
 | ------------- | ------------- |
 
-🕑 **Weekly development breakdown**
+🕑 **Development breakdown**
 <!--START_SECTION:waka-->
 
 ```text
