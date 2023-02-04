@@ -10,11 +10,11 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 02 December 2022 - To: 01 February 2023
+From: 02 December 2022 - To: 02 February 2023
 
 Total Time: 57 hrs 19 mins
 
-Isabelle     40 hrs 2 mins   █████████████████▒░░░░░░░   69.86 %
+Isabelle     40 hrs 2 mins   █████████████████▒░░░░░░░   69.85 %
 TeX          6 hrs 28 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   11.31 %
 sh           5 hrs 21 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.35 %
 Python       3 hrs 29 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.09 %
