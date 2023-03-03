@@ -10,16 +10,14 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 02 December 2022 - To: 01 March 2023
+Total Time: 69 hrs 4 mins
 
-Total Time: 68 hrs 51 mins
-
-Isabelle     41 hrs 59 mins  ███████████████▒░░░░░░░░░   60.98 %
-sh           9 hrs 18 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.53 %
-TeX          6 hrs 28 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.41 %
-Python       5 hrs 50 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   08.47 %
-Text         2 hrs 43 mins   █░░░░░░░░░░░░░░░░░░░░░░░░   03.95 %
-Markdown     55 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.34 %
+Isabelle     42 hrs 4 mins   ███████████████▒░░░░░░░░░   60.91 %
+sh           9 hrs 26 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.68 %
+TeX          6 hrs 28 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.38 %
+Python       5 hrs 50 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   08.45 %
+Text         2 hrs 43 mins   █░░░░░░░░░░░░░░░░░░░░░░░░   03.94 %
+Markdown     55 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.33 %
 ```
 
 <!--END_SECTION:waka-->
