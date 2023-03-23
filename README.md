@@ -10,14 +10,14 @@
 <!--START_SECTION:waka-->
 
 ```text
-Total Time: 113 hrs 17 mins
+Total Time: 117 hrs 51 mins
 
-Isabelle     73 hrs 33 mins  ████████████████▒░░░░░░░░   64.93 %
-sh           15 hrs 31 mins  ███▒░░░░░░░░░░░░░░░░░░░░░   13.70 %
-TeX          7 hrs 2 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.22 %
-Python       5 hrs 50 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.16 %
-Markdown     4 hrs 17 mins   █░░░░░░░░░░░░░░░░░░░░░░░░   03.79 %
-C            2 hrs 43 mins   ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.41 %
+Isabelle     77 hrs 56 mins  ████████████████▓░░░░░░░░   66.13 %
+sh           15 hrs 32 mins  ███▒░░░░░░░░░░░░░░░░░░░░░   13.18 %
+TeX          7 hrs 2 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.98 %
+Python       5 hrs 50 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   04.96 %
+Markdown     4 hrs 27 mins   █░░░░░░░░░░░░░░░░░░░░░░░░   03.79 %
+C            2 hrs 43 mins   ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.32 %
 ```
 
 <!--END_SECTION:waka-->
