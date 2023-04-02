@@ -10,11 +10,11 @@
 <!--START_SECTION:waka-->
 
 ```text
-Total Time: 174 hrs 51 mins
+Total Time: 178 hrs 23 mins
 
-Isabelle     108 hrs 2 mins  ███████████████▒░░░░░░░░░   61.79 %
-sh           24 hrs 47 mins  ███▓░░░░░░░░░░░░░░░░░░░░░   14.18 %
-Other        10 hrs 38 mins  █▓░░░░░░░░░░░░░░░░░░░░░░░   06.09 %
+Isabelle     108 hrs 2 mins  ███████████████░░░░░░░░░░   60.56 %
+sh           26 hrs 24 mins  ███▓░░░░░░░░░░░░░░░░░░░░░   14.80 %
+Other        11 hrs 35 mins  █▓░░░░░░░░░░░░░░░░░░░░░░░   06.50 %
 ```
 
 <!--END_SECTION:waka-->
