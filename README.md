@@ -9,7 +9,7 @@
 🕑 **Development breakdown** ![](https://wakatime.com/badge/user/8d0110fb-6b70-4990-ab86-45c404715c2b.svg)
 <!--START_SECTION:waka-->
 
-```text
+```txt
 Total Time: 240 hrs 35 mins
 
 Isabelle     108 hrs 5 mins  ███████████▒░░░░░░░░░░░░░   44.92 %
