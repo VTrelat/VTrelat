@@ -5,3 +5,8 @@
 📊 **Stats**
 | <img align="center" src="https://readme-stats.clckblog.space/api?username=VTrelat&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true" /> | <img align="center" src="https://readme-stats.clckblog.space/api/top-langs/?username=VTrelat&layout=compact&theme=tokyonight&hide_border=true" /> |
 | ------------- | ------------- |
+
+
+<p align="center">
+ <img src="https://profile-counter.glitch.me/thibault_cne/count.svg" />
+</p>
