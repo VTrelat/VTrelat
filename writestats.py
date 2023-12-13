@@ -12,6 +12,6 @@ total = "Total coding time: " + stats["human_readable_total_including_other_lang
 
 table="**Most used languages**:\n"+"| Language | Time | Percentage |\n"+"| ------------- | ------------- | ------------- |\n"
 for line in stats["languages"][:9]:
-    table += "| "+line["name"] + " | " + line["text"] + " | " + str(line["percent"]) + " |" + "\n"
+    table += "| "+line["name"] + " | " + line["text"] + " | " + str(line["percent"]) + "% |" + "\n"
 
 open('README.md', 'w').write(data + total + "\n" + table + "\n")
