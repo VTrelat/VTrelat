@@ -10,6 +10,7 @@ jobs:
         name: WakaReadme DevMetrics
         runs-on: ubuntu-latest
         steps:
+            - uses: actions/setup-python@v2
             - uses: athul/waka-readme@master
               with:
                   GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -26,7 +27,7 @@ jobs:
                   LANG_COUNT: 7
             - name: Update README.md
               run: |
-                  python3 writestats.py
+                  python writestats.py
             - name: commit
               run: |
                   git config --global user.email vincent.trelat@depinfonancy.net
