@@ -26,7 +26,7 @@ jobs:
                   LANG_COUNT: 7
             - name: Update README.md
               run: |
-                  node readstats.js
+                  python3 writestats.py
             - name: commit
               run: |
                   git config --global user.email vincent.trelat@depinfonancy.net
