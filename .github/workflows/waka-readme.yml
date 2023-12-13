@@ -1,26 +1,39 @@
 name: Waka Readme
 
 on:
-  workflow_dispatch: # for manual workflow trigger
-  # schedule:
-  #  - cron: "0 0 0 0 0" # runs at every 12AM UTC
+    workflow_dispatch: # for manual workflow trigger
+    # schedule:
+    #  - cron: "0 0 0 0 0" # runs at every 12AM UTC
 
 jobs:
-  update-readme:
-    name: WakaReadme DevMetrics
-    runs-on: ubuntu-latest
-    steps:
-      - uses: athul/waka-readme@master
-        with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          # following flags are required, only if this is not on
-          # profile readme, remove the leading `#` to use them
-          #GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          #REPOSITORY: <gh_username/gh_username>
-          SHOW_TITLE: false
-          TIME_RANGE: all_time
-          SHOW_TIME: true
-          SHOW_MASKED_TIME: true
-          SHOW_TOTAL: false
-          LANG_COUNT: 7
+    update-readme:
+        name: WakaReadme DevMetrics
+        runs-on: ubuntu-latest
+        steps:
+            - uses: athul/waka-readme@master
+              with:
+                  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+                  WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+                  # following flags are required, only if this is not on
+                  # profile readme, remove the leading `#` to use them
+                  #GH_TOKEN: ${{ secrets.GH_TOKEN }}
+                  #REPOSITORY: <gh_username/gh_username>
+                  SHOW_TITLE: false
+                  TIME_RANGE: all_time
+                  SHOW_TIME: true
+                  SHOW_MASKED_TIME: true
+                  SHOW_TOTAL: false
+                  LANG_COUNT: 7
+            - name: Update README.md
+              run: |
+                  readstats.mjs
+            - name: commit
+              run: |
+                  git config --global user.email vincent.trelat@depinfonancy.net
+                  git config --global user.name VTrelat
+                  git add .
+                  git commit -m "README update Automation" -a
+            - name: Push changes
+              uses: ad-m/github-push-action@master
+              with:
+                  github_token: ${{ secrets.GH_TOKEN }}
