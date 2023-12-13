@@ -10,7 +10,7 @@ today = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 data += "_Last updated: " + today + "_\n"
 total = "\nTotal coding time: " + stats["human_readable_total_including_other_language"]
 
-table="**Most used languages**:\n"+"\n| Language | Time | Percentage |\n"+"| ------------- | ------------- | ------------- |\n"
+table="\n**Most used languages**:\n"+"\n| Language | Time | Percentage |\n"+"| ------------- | ------------- | ------------- |\n"
 for line in stats["languages"][:9]:
     table += "| "+line["name"] + " | " + line["text"] + " | " + str(line["percent"]) + "% |" + "\n"
 
