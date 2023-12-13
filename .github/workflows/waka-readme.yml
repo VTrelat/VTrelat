@@ -10,7 +10,6 @@ jobs:
         name: WakaReadme DevMetrics
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/setup-python@v2
             - uses: athul/waka-readme@master
               with:
                   GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -25,6 +24,8 @@ jobs:
                   SHOW_MASKED_TIME: true
                   SHOW_TOTAL: false
                   LANG_COUNT: 7
+            - uses: actions/checkout@v2
+            - uses: actions/setup-python@v2
             - name: Update README.md
               run: |
                   python ./writestats.py
