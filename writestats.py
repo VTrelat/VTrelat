@@ -8,7 +8,7 @@ stats = loads(response.text)["data"]
 
 today = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 data += "_Last updated: " + today + "_\n"
-total = "Total coding time: " + stats["human_readable_total_including_other_language"]
+total = "\nTotal coding time: " + stats["human_readable_total_including_other_language"]
 
 table="**Most used languages**:\n"+"| Language | Time | Percentage |\n"+"| ------------- | ------------- | ------------- |\n"
 for line in stats["languages"][:9]:
