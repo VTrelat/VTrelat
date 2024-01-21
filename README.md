@@ -17,21 +17,21 @@
 
 <!--automations-->
 ### Coding Activity
-_Last updated: 2024-01-20 00:30:33_
+_Last updated: 2024-01-21 00:34:16_
 
-Total coding time: 431 hrs 4 mins
+Total coding time: 431 hrs 57 mins
 
 **Most used languages**:
 
 | Language | Time | Percentage |
 | ------------- | ------------- | ------------- |
-| sh | 117 hrs 31 mins | 27.26% |
-| TeX | 101 hrs 50 mins | 23.62% |
-| Isabelle | 91 hrs 12 mins | 21.16% |
-| Python | 37 hrs | 8.58% |
-| Other | 26 hrs 3 mins | 6.04% |
-| Markdown | 14 hrs 10 mins | 3.29% |
+| sh | 118 hrs 7 mins | 27.35% |
+| TeX | 101 hrs 50 mins | 23.57% |
+| Isabelle | 91 hrs 12 mins | 21.11% |
+| Python | 37 hrs | 8.57% |
+| Other | 26 hrs 20 mins | 6.1% |
+| Markdown | 14 hrs 10 mins | 3.28% |
 | JavaScript | 10 hrs 23 mins | 2.41% |
-| Text | 4 hrs 59 mins | 1.16% |
-| Bash | 4 hrs 40 mins | 1.09% |
+| Text | 4 hrs 59 mins | 1.15% |
+| Bash | 4 hrs 40 mins | 1.08% |
 
