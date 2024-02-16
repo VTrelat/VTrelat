@@ -1,5 +1,7 @@
 ### Hi there, I'm Vincent Trélat 👋
 
+Check out my [https://vtrelat.github.io](website)
+
 -   💻 CS engineer & INRIA PhD student at Loria, Nancy, France
 -   🎓 Graduate of Mines Nancy in France
 -   🎓 Specialized in _formal methods_ which I studied at TU Munich
