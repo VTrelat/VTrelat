@@ -1,6 +1,6 @@
 ### Hi there, I'm Vincent Trélat 👋
 
-Check out my [https://vtrelat.github.io](website)
+Check out my [website](https://vtrelat.github.io)
 
 -   💻 CS engineer & INRIA PhD student at Loria, Nancy, France
 -   🎓 Graduate of Mines Nancy in France
