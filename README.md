@@ -37,3 +37,4 @@ Total coding time: 695 hrs 3 mins
 | Markdown | 14 hrs 19 mins | 2.06% |
 | JavaScript | 10 hrs 32 mins | 1.52% |
 
+> **Note**: `Other` is mainly `SMT-LIB`.
