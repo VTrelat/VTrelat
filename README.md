@@ -19,21 +19,21 @@ Check out my [website](https://vtrelat.github.io)
 
 <!--automations-->
 ### Coding Activity
-_Last updated: 2025-09-10 00:41:53_
+_Last updated: 2025-09-11 00:42:46_
 
-Total coding time: 1,866 hrs 35 mins
+Total coding time: 1,871 hrs 36 mins
 
 **Most used languages**:
 
 | Language | Time | Percentage |
 | ------------- | ------------- | ------------- |
-| Lean | 713 hrs 31 mins | 38.23% |
-| TeX | 281 hrs 53 mins | 15.1% |
-| Isabelle | 220 hrs 24 mins | 11.81% |
-| Lean4 | 196 hrs 4 mins | 10.5% |
-| sh | 139 hrs 53 mins | 7.49% |
-| Other | 89 hrs 15 mins | 4.78% |
-| Python | 78 hrs | 4.18% |
-| C++ | 43 hrs 51 mins | 2.35% |
+| Lean | 713 hrs 31 mins | 38.12% |
+| TeX | 281 hrs 53 mins | 15.06% |
+| Isabelle | 220 hrs 24 mins | 11.78% |
+| Lean4 | 201 hrs 6 mins | 10.75% |
+| sh | 139 hrs 53 mins | 7.47% |
+| Other | 89 hrs 15 mins | 4.77% |
+| Python | 78 hrs | 4.17% |
+| C++ | 43 hrs 51 mins | 2.34% |
 | Markdown | 22 hrs 48 mins | 1.22% |
 
