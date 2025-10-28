@@ -11,15 +11,15 @@ Check out my [website](https://vtrelat.github.io)
 | <img align="center" src="https://github-readme-stats.vercel.app/api?username=VTrelat&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" /> | <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VTrelat&layout=compact&theme=tokyonight&hide_border=true" /> |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-### Profile views
+<!-- ### Profile views
 
 <p align="center">
  <img src="https://profile-counter.glitch.me/VTrelat/count.svg" />
-</p>
+</p> -->
 
 <!--automations-->
 ### Coding Activity
-_Last updated: 2025-10-28 09:42:00_
+_Last updated: 2025-10-28 10:05:33_
 
 Total coding time: 2,050 hrs 14 mins
 
@@ -27,13 +27,13 @@ Total coding time: 2,050 hrs 14 mins
 
 | Language | Time | Percentage |
 | ------------- | ------------- | ------------- |
-| Lean | 713 hrs 31 mins | 34.8% |
-| Lean4 | 329 hrs 19 mins | 16.06% |
+| Lean | 1135 hrs 56 mins | 55.4% |
 | TeX | 314 hrs 26 mins | 15.34% |
 | Isabelle | 220 hrs 24 mins | 10.75% |
 | sh | 139 hrs 53 mins | 6.82% |
-| Other | 93 hrs 5 mins | 4.54% |
 | Python | 80 hrs 44 mins | 3.94% |
 | C++ | 43 hrs 51 mins | 2.14% |
 | Markdown | 25 hrs 16 mins | 1.23% |
+| Bash | 14 hrs 50 mins | 0.72% |
+| JavaScript | 13 hrs 20 mins | 0.65% |
 
