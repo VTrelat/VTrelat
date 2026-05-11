@@ -1,9 +1,11 @@
+import base64
+import os
 from json import *
 import requests
 from datetime import datetime
 
 MERGED_LANGUAGE_GROUPS = {
-    "Lean": {"Lean", "Lean4"},
+    "Lean": {"Lean", "Lean4", "Other"},
 }
 
 
@@ -58,18 +60,34 @@ def _merge_languages(languages):
     return merged_list
 
 
-data = open('README.md', 'r').read( ).split('<!--automations-->')[0] + '<!--automations-->\n' + "### Coding Activity\n"
-url = "https://wakatime.com/api/v1/users/VTrelat/stats"
-response = requests.get(url)
+data = (
+    open("README.md", "r").read().split("<!--automations-->")[0]
+    + "<!--automations-->\n"
+    + "### Coding Activity\n"
+)
+
+api_key = os.environ.get("WAKATIME_API_KEY", "")
+if not api_key:
+    raise RuntimeError("WAKATIME_API_KEY environment variable is not set")
+encoded_key = base64.b64encode(api_key.encode()).decode()
+headers = {"Authorization": f"Basic {encoded_key}"}
+
+url = "https://wakatime.com/api/v1/users/current/stats/all_time"
+response = requests.get(url, headers=headers)
+response.raise_for_status()
 stats = loads(response.text)["data"]
 
-today = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
+today = datetime.today().strftime("%Y-%m-%d %H:%M:%S")
 data += "_Last updated: " + today + "_\n"
 total = "\nTotal coding time: " + stats["human_readable_total_including_other_language"]
 
 languages = _merge_languages(stats["languages"])
 
-table="\n**Most used languages**:\n"+"\n| Language | Time | Percentage |\n"+"| ------------- | ------------- | ------------- |\n"
+table = (
+    "\n**Most used languages**:\n"
+    + "\n| Language | Time | Percentage |\n"
+    + "| ------------- | ------------- | ------------- |\n"
+)
 for line in languages[:9]:
     table += (
         "| "
@@ -81,4 +99,4 @@ for line in languages[:9]:
         + "% |\n"
     )
 
-open('README.md', 'w').write(data + total + "\n" + table + "\n")
+open("README.md", "w").write(data + total + "\n" + table + "\n")
