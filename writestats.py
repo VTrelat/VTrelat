@@ -1,4 +1,3 @@
-import base64
 import os
 from json import *
 import requests
@@ -66,11 +65,11 @@ data = (
     + "### Coding Activity\n"
 )
 
-api_key = os.environ.get("WAKATIME_API_KEY", "")
-if not api_key:
-    raise RuntimeError("WAKATIME_API_KEY environment variable is not set")
-encoded_key = base64.b64encode(api_key.encode()).decode()
-headers = {"Authorization": f"Basic {encoded_key}"}
+# WakaTime API keys are write-only (plugins); reading stats needs an OAuth token.
+access_token = os.environ.get("WAKATIME_ACCESS_TOKEN", "")
+if not access_token:
+    raise RuntimeError("WAKATIME_ACCESS_TOKEN environment variable is not set")
+headers = {"Authorization": f"Bearer {access_token}"}
 
 url = "https://wakatime.com/api/v1/users/current/stats/all_time"
 response = requests.get(url, headers=headers)

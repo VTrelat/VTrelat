@@ -18,7 +18,7 @@ jobs:
                   pip install requests
             - name: Update README.md
               env:
-                  WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+                  WAKATIME_ACCESS_TOKEN: ${{ secrets.WAKATIME_ACCESS_TOKEN }}
               run: |
                   python ./writestats.py
             - name: Commit changes
